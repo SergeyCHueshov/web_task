@@ -6,21 +6,11 @@
 </head>
 <body>
 <table>
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Surname</th>
-        <th>Age</th>
-    </tr>
-    </thead>
     <tbody>
     <form action="/user/create" method="post">
         <tr>
             <td><input type="text" name="login" placeholder="Enter Login"></td>
             <td><input type="text" name="password" placeholder="Enter Password"></td>
-            <td><input type="submit" value="Subscribe"></td>
-        </tr>
-        <tr>
             <td><input type="text" name="firstname" placeholder="Enter Name"></td>
             <td><input type="text" name="secondname" placeholder="Enter Surname"></td>
             <td><input type="text" name="age" placeholder="Enter Age"></td>
